@@ -8,9 +8,11 @@ class UberSpecial{
         this.seatsMaterial = [];
     }
     uberBlack(){
-
-    }
-    uberVan(){
+        console.log(`UBER Black id = ${this.id} la licencia es ${this.license} y la conductora es ${this.driver}`);
         
     }
+    uberVan(){
+        console.log(`UBER Van id id = ${this.id} la licencia es ${this.license} y la conductora es ${this.driver}`);
+    }
 }
+export default UberSpecial;
