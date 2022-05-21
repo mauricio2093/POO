@@ -1,4 +1,4 @@
-class Route :
+class Route:
     id      = int
     start   = []
-    end     = [] 
+    end     = []
